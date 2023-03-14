@@ -1,5 +1,5 @@
 ## Introduction ##
-This is a simple code for running an app and making some gui operations on the app. In this example i run spotify and search for an album then i play a chosen song from that album.I will explain the code step by step.
+This is a simple code for running an app and making some gui operations on the app. In this example i run spotify and search for an album then i play a chosen song from that album. Inside the Image folder i have the necessary images of the regions of spotify that the program interacts (click,type). I will explain the code step by step.
 
 ## Find the full path the spotify ##
 To do this:
