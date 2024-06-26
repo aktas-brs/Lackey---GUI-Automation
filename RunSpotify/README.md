@@ -31,6 +31,7 @@ You shoul either use one forwardslash `/` or double backslash `\\` when giving a
 
 This will be done in some steps:
  - Click search button
+ - Click the search bar
  - Write the song's name
  - Click the play button for that song
 
@@ -40,5 +41,15 @@ Firs you need to take a screenshot of the button and save it to a folder like th
 
 ![search](https://github.com/aktas-brs/Lackey---GUI-Automation/assets/122377157/ef9ce0cf-c501-4268-bda1-8e3928c3d8e5)
 
-Thens use `lackey.wait('C:/Users/Baris/Desktop/RunSpotify/Screenshots/search.png',40)` to find the location of the search button on screen.
+Use `lackey.wait('C:/Users/Baris/Desktop/RunSpotify/Screenshots/search.png',40)` to find the location of the search button on screen.
 Then use `lackey.click('C:/Users/Baris/Desktop/RunSpotify/Screenshots/search.png')` to click the position of the button.
+
+2) Click the search bar
+Similarly, taking a screenshot and using the same code lines find and click the search bar like this:
+
+![search_bar](https://github.com/aktas-brs/Lackey---GUI-Automation/assets/122377157/09ecf51c-c8ba-4ab5-9746-c4d2c85e8dc1)
+
+`lackey.wait('C:/Users/Baris/Desktop/RunSpotify/Screenshots/search_bar.png',40)
+lackey.click('C:/Users/Baris/Desktop/RunSpotify/Screenshots/search_bar.png')`
+
+
