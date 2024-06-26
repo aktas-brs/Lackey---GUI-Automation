@@ -9,7 +9,7 @@ To do this:
 you will get the full path to spotify.	
 
 The full path to spotify on my computer looks like this:
-![image](https://user-images.githubusercontent.com/122377157/225025802-cb94ae5c-afcc-4aed-ae66-20e0f2e25605.png)
+![cmd](https://user-images.githubusercontent.com/122377157/225025802-cb94ae5c-afcc-4aed-ae66-20e0f2e25605.png)
 
 ## Define the app and run it: ##
 
@@ -36,7 +36,9 @@ This will be done in some steps:
 
 1) Click search button
 
-Firs you need to take a screenshot of the button and save it to a folder
+Firs you need to take a screenshot of the button and save it to a folder like this:
 
+![search](https://github.com/aktas-brs/Lackey---GUI-Automation/assets/122377157/ef9ce0cf-c501-4268-bda1-8e3928c3d8e5)
 
-
+Thens use `lackey.wait('C:/Users/Baris/Desktop/RunSpotify/Screenshots/search.png',40)` to find the location of the search button on screen.
+Then use `lackey.click('C:/Users/Baris/Desktop/RunSpotify/Screenshots/search.png')` to click the position of the button.
