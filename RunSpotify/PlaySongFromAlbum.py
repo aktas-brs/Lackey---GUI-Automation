@@ -1,29 +1,21 @@
 import lackey 
 
-#Provide the spotify path and open it us,ng lackey
+#Provide the spotify path and open it using lackey
 spotify_path = "C:/Users/Baris/AppData/Local/Microsoft/WindowsApps/Spotify.exe"
 spotify_app = lackey.App(spotify_path)
 spotify_app.open()
 
-#Making sure the spotify window is on top cy clicking its logo
-lackey.wait('Image/spotify_logo.jpg',40)
-lackey.click('Image/spotify_logo.jpg')
-
 #Finding and clicking the search button in spotify
-lackey.wait('Image/search.jpg',40)
-lackey.click('Image/search.jpg')
+lackey.wait('C:/Users/Baris/Desktop/RunSpotify/Screenshots/search.png',40)
+lackey.click('C:/Users/Baris/Desktop/RunSpotify/Screenshots/search.png')
 
 #Finding and clicking on the searchbox
-lackey.wait('Image/search_box.jpg',40)
-lackey.click('Image/search_box.jpg')
+lackey.wait('C:/Users/Baris/Desktop/RunSpotify/Screenshots/search_bar.png',40)
+lackey.click('C:/Users/Baris/Desktop/RunSpotify/Screenshots/search_bar.png')
 
-#Typing the name of the album that contains the song i will play
-lackey.type('Cem Karaca Olumsuzler')
-#Finding and clicking on the album from search results
-lackey.wait('Image/olumsuzler.jpg',40)
-lackey.click('Image/olumsuzler.jpg')
+#Typing the name of the song 
+lackey.type('People are strange')
 
-#Finding and double clicking on the song 
-lackey.wait('Image/namus_belasi.jpg',40)
-lackey.doubleClick('Image/namus_belasi.jpg')
-
+#Finding and clicking on the song to play it
+lackey.wait('C:/Users/Baris/Desktop/RunSpotify/Screenshots/song.png',40)
+lackey.click('C:/Users/Baris/Desktop/RunSpotify/Screenshots/song.png')
