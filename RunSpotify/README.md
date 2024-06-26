@@ -3,8 +3,8 @@ This is a simple code for running an app and making some gui operations on the a
 
 ## Find the full path the spotify ##
 To do this:
-* Open a command prompt by pressing `windows + R`.
-* Type `where spotify` and press enter.
+ - Open a command prompt by pressing `windows + R`.
+ - Type `where spotify` and press enter.
 
 you will get the full path to spotify.	
 
@@ -13,16 +13,30 @@ The full path to spotify on my computer looks like this:
 
 ## Define the app and run it: ##
 
-Define the full path on python as:
-* `spotify_path = "C:/Users/Baris/AppData/Local/Microsoft/WindowsApps/Spotify.exe"`
+1) Define the full path on python as:
+
+`spotify_path = "C:/Users/Baris/AppData/Local/Microsoft/WindowsApps/Spotify.exe"`
 
 You shoul either use one forwardslash `/` or double backslash `\\` when giving a path as a string. If you directly copied the path from cmd window there will be one backslash `\` between folder names so you have to modify it.
 
-Define the lackey app object as:
-* `spotify_app = lackey.App(spotify_path)`
+2) Define the lackey app object as:
 
-Now run the defined app:
-* `spotify_app.open()`
+`spotify_app = lackey.App(spotify_path)`
 
-## Find the full path the spotify ##
+3) Now run the defined app:
+
+`spotify_app.open()`
+
+## Find the song you want to play ##
+
+This will be done in some steps:
+ - Click search button
+ - Write the song's name
+ - Click the play button for that song
+
+1) Click search button
+
+Firs you need to take a screenshot of the button and save it to a folder
+
+
 
