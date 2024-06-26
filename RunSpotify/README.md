@@ -16,7 +16,7 @@ The full path to spotify on my computer looks like this:
 Define the full path on python as:
 * `spotify_path = "C:/Users/Baris/AppData/Local/Microsoft/WindowsApps/Spotify.exe"`
 
-You shoul either use one forwardslash `/` or double backslash `\\` when giving a path as a string. If you directly copied the path from cmd window there will be one backslash between folder names so you have to modify it.
+You shoul either use one forwardslash `/` or double backslash `\\` when giving a path as a string. If you directly copied the path from cmd window there will be one backslash `\` between folder names so you have to modify it.
 
 Define the lackey app object as:
 * `spotify_app = lackey.App(spotify_path)`
@@ -24,4 +24,5 @@ Define the lackey app object as:
 Now run the defined app:
 * `spotify_app.open()`
 
+## Find the full path the spotify ##
 
