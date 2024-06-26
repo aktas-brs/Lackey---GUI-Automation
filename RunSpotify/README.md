@@ -56,9 +56,17 @@ This will be done in some steps:
     `lackey.type('People are strange')`
 
 5) Finally click on the song to play it:
-6) 
+
     ![song](https://github.com/aktas-brs/Lackey---GUI-Automation/assets/122377157/32dd51fa-eced-4e64-b6e8-e27ac9529b4a)
 
     `lackey.wait('C:/Users/Baris/Desktop/RunSpotify/Screenshots/song.png',40)`
     `lackey.click('C:/Users/Baris/Desktop/RunSpotify/Screenshots/song.png')`
 
+## Notes ##
+This simple example is created so that it will help understand the basic tools to create a custom automated code. 
+ - With `lackey.wait()` and `lackey.click()` you can find and press any button on screen.
+ - With `pyautogui.typewrite()` or `lackey.type()` you can write user names, passwords, search texts etc.
+ - 
+Combining even theese two methods will enable you to automate simple tasks, for further complicated tasks there are more sophisticated methods provided by lackey and pyautogui.
+
+When running the code your computer's theme may be different and it may make lackey to fail when finding the images on screen. You can always replace the images of buttons with the screenshots from your computer.
